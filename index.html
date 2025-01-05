@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио фотографа</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <nav>
+            <div class="container">
+                <a href="#" class="logo">Фотограф</a>
+                <ul class="nav-links">
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <h1>Профессиональная фотосъемка</h1>
+                <p>Запечатлейте свои лучшие моменты с нами.</p>
+                <a href="#gallery" class="btn">Посмотреть работы</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Галерея -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Галерея</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x300" alt="Фото 1">
+                    <div class="overlay">
+                        <p>Описание фото 1</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x300" alt="Фото 2">
+                    <div class="overlay">
+                        <p>Описание фото 2</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x300" alt="Фото 3">
+                    <div class="overlay">
+                        <p>Описание фото 3</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x300" alt="Фото 4">
+                    <div class="overlay">
+                        <p>Описание фото 4</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <div class="about-content">
+                <img src="https://via.placeholder.com/300x400" alt="Фотограф">
+                <div class="about-text">
+                    <h3>Привет, я [Имя]</h3>
+                    <p>Я профессиональный фотограф с 5-летним опытом работы. Специализируюсь на портретной, свадебной и пейзажной фотосъемке. Моя цель — запечатлеть ваши эмоции и создать уникальные кадры, которые останутся с вами навсегда.</p>
+                    <a href="#contact" class="btn">Связаться со мной</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="email" name="email" placeholder="Ваш email" required>
+                <textarea name="message" placeholder="Ваше сообщение" required></textarea>
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Фотограф. Все права защищены.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
